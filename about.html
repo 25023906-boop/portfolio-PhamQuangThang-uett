@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>About - Phạm Quang Thắng</title>
+  <meta content="Giới thiệu về Phạm Quang Thắng - Sinh viên UET" name="description">
+  
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="[https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap](https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap)" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary-bg: #f8f9fa;
+      --text-main: #2b2b2b;
+      --accent: #34b7a7; /* Màu xanh ngọc làm điểm nhấn */
+      --font-main: "Poppins", sans-serif;
+    }
+
+    body {
+      font-family: var(--font-main);
+      color: var(--text-main);
+      background-color: var(--primary-bg);
+    }
+
+    /* ======= Header (Giữ đồng bộ) ======= */
+    .glass-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 5%;
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+      z-index: 1000;
+    }
+
+    .logo { font-size: 1.8rem; font-weight: 700; letter-spacing: 1px; color: var(--text-main); text-transform: uppercase; }
+
+    nav a { 
+      text-decoration: none; color: var(--text-main); margin: 0 15px; 
+      font-weight: 500; opacity: 0.7; transition: 0.3s; 
+    }
+    nav a:hover, nav a.active { opacity: 1; color: var(--accent); }
+
+    .socials i { font-size: 1.2rem; color: var(--text-main); transition: 0.3s; cursor: pointer; }
+    .socials i:hover { color: var(--accent); }
+
+    /* ======= About Section ======= */
+    .about {
+      margin-top: 100px;
+      padding: 60px 0;
+    }
+
+    .section-title {
+      text-align: center;
+      padding-bottom: 40px;
+    }
+    
+    .section-title h2 {
+      font-size: 32px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+      color: var(--text-main);
+    }
+
+    .section-title p {
+      font-size: 16px;
+      color: #6c757d;
+      margin-bottom: 0;
+    }
+
+    /* Đường kẻ ngang dưới tiêu đề */
+    .section-title h2::after {
+      content: "";
+      width: 60px;
+      height: 3px;
+      background: var(--accent);
+      display: block;
+      margin: 15px auto 0 auto;
+    }
+
+    /* Khung chứa ảnh đại diện */
+    .about-img {
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+      /* Hiệu ứng di chuột nổi lên */
+      transition: transform 0.3s ease;
+    }
+    
+    .about-img:hover {
+      transform: translateY(-5px);
+    }
+
+    .about-img img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    /* Cột nội dung */
+    .about-content h3 {
+      font-weight: 700;
+      font-size: 26px;
+      color: var(--text-main);
+      margin-bottom: 10px;
+    }
+
+    .about-content .info-list {
+      list-style: none;
+      padding: 0;
+      margin-top: 30px;
+    }
+
+    .about-content .info-list li {
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+    }
+
+    .about-content .info-list i {
+      font-size: 18px;
+      color: var(--accent);
+      margin-right: 10px;
+    }
+
+    .about-content .info-list strong {
+      margin-right: 8px;
+      font-weight: 600;
+    }
+
+    /* Blockquote châm ngôn */
+    .quote-box {
+      margin-top: 40px;
+      padding: 25px 30px;
+      background-color: #ffffff;
+      border-left: 5px solid var(--accent);
+      box-shadow: 0 5px 20px rgba(0,0,0,0.03);
+      border-radius: 0 10px 10px 0;
+    }
+
+    .quote-box p {
+      font-style: italic;
+      color: #555;
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    .quote-box .author {
+      text-align: right;
+      font-weight: 700;
+      color: var(--text-main);
+      font-size: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="glass-header">
+    <div class="logo">THẮNG</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="target.html">Target</a>
+      <a href="project.html">Project</a>
+      <a href="summary.html">Summary</a>
+    </nav>
+    <div class="socials d-none d-md-block">
+      <i class="bi bi-twitter-x px-2"></i>
+      <i class="bi bi-facebook px-2"></i>
+      <i class="bi bi-instagram px-2"></i>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>cố gắng để thành công</p>
+        </div>
+
+        <div class="row align-items-center">
+          
+          <div class="col-lg-4 col-md-5 mb-4 mb-md-0">
+            <div class="about-img">
+              <img src="assets/img/avatar.jpg" alt="Phạm Quang Thắng Avatar">
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-md-7 about-content ps-lg-5">
+            <h3>Sinh viên ngành thiết kế công nghiệp và đồ họa.</h3>
+            
+            <div class="row">
+              <div class="col-lg-6">
+                <ul class="info-list">
+                  <li><i class="bi bi-chevron-right"></i> <strong>Ngày sinh:</strong> <span>08/09/2007</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Số điện thoại:</strong> <span>+894408907</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Thành phố:</strong> <span>Hà Nội</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul class="info-list">
+                  <li><i class="bi bi-chevron-right"></i> <strong>Tuổi:</strong> <span>19</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Nghề nghiệp:</strong> <span>Sinh viên</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>phamthang06@gmail.com</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="quote-box">
+              <p>"Chúng ta không được cho một cuộc đời ngắn ngủi, mà chúng ta đã làm cho nó trở nên ngắn ngủi. Chúng ta không thiếu thời gian, mà chúng ta phung phí nó quá nhiều."</p>
+              <div class="author">— Seneca</div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

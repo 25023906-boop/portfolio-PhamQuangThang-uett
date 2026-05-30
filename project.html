@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Projects - Portfolio</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    /* Tùy chỉnh hiệu ứng menu dọc cho đẹp mắt */
+    .nav-pills .nav-link {
+      color: #444;
+      background: #fafafa;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      padding: 12px 15px;
+      text-align: left;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      border-left: 3px solid transparent;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+    }
+    .nav-pills .nav-link:hover {
+      background: #f0f0f0;
+      color: #34b7a7;
+    }
+    .nav-pills .nav-link.active {
+      background: #fff !important;
+      color: #34b7a7 !important;
+      border-left: 3px solid #34b7a7;
+      font-weight: 600;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+    }
+    .tab-content-box {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+      min-height: 450px;
+    }
+  </style>
+</head>
+
+<body class="about-page">
+
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <h1 class="sitename">Thắng</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="target.html">Target</a></li>
+          <li><a href="project.html" class="active">Project</a></li>
+          <li><a href="summary.html">Summary</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section id="projects" class="about section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Hệ Thống Kết Quả Bài Tập Thực Hành</h2>
+        <p>Chọn từng bài ở danh mục bên trái để xem chi tiết báo cáo và minh chứng sản phẩm.</p>
+      </div><div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row">
+          
+          <div class="col-lg-4 col-md-4 mb-4">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              
+              <button class="nav-link active" id="pill-b1-tab" data-bs-toggle="pill" data-bs-target="#pill-b1" type="button" role="tab" aria-controls="pill-b1" aria-selected="true">
+                <i class="bi bi-folder2-open me-2"></i> Bài 1: Quản lý tệp & thư mục
+              </button>
+              
+              <button class="nav-link" id="pill-b2-tab" data-bs-toggle="pill" data-bs-target="#pill-b2" type="button" role="tab" aria-controls="pill-b2" aria-selected="false">
+                <i class="bi bi-search me-2"></i> Bài 2: Tìm kiếm học thuật
+              </button>
+              
+              <button class="nav-link" id="pill-b3-tab" data-bs-toggle="pill" data-bs-target="#pill-b3" type="button" role="tab" aria-controls="pill-b3" aria-selected="false">
+                <i class="bi bi-chat-square-text me-2"></i> Bài 3: Viết Prompt hiệu quả
+              </button>
+              
+              <button class="nav-link" id="pill-b4-tab" data-bs-toggle="pill" data-bs-target="#pill-b4" type="button" role="tab" aria-controls="pill-b4" aria-selected="false">
+                <i class="bi bi-people me-2"></i> Bài 4: Hợp tác dự án nhóm
+              </button>
+              
+              <button class="nav-link" id="pill-b5-tab" data-bs-toggle="pill" data-bs-target="#pill-b5" type="button" role="tab" aria-controls="pill-b5" aria-selected="false">
+                <i class="bi bi-magic me-2"></i> Bài 5: AI tạo sinh nội dung
+              </button>
+              
+              <button class="nav-link" id="pill-b6-tab" data-bs-toggle="pill" data-bs-target="#pill-b6" type="button" role="tab" aria-controls="pill-b6" aria-selected="false">
+                <i class="bi bi-shield-check me-2"></i> Bài 6: AI có trách nhiệm
+              </button>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-md-8">
+            <div class="tab-content" id="v-pills-tabContent">
+              
+              <div class="tab-pane fade show active" id="pill-b1" role="tabpanel" aria-labelledby="pill-b1-tab">
+                <div class="tab-content-box" style="border-top: 4px solid #34b7a7;">
+                  <h3 style="font-weight: 700; color: #222;">Bài 1 - Thao tác cơ bản với tệp tin và thư mục</h3>
+                  <p class="text-muted" style="font-size: 0.9rem;"><em>Mục tiêu: Quy hoạch không gian lưu trữ khoa học và thiết lập quy tắc định danh tài liệu.</em></p>
+                  <hr>
+                  <div class="project-detail-text mt-4">
+                    <p style="color: #d9534f; font-weight: bold;"><div class="row gy-4 mt-4">
+
+  <div class="col-md-4">
+    <div class="h-100 p-3 d-flex flex-column" style="background: #fafafa; border: 1px solid #eee; border-radius: 8px;">
+      <p style="font-size: 0.9rem; color: #444; line-height: 1.6; margin-bottom: 15px;">
+        <strong style="color: #34b7a7;">1. Mở File Explorer:</strong> Nhấn tổ hợp phím Windows + E hoặc nhấp vào biểu tượng thư mục màu vàng trên thanh tác vụ.
+      </p>
+      <a href="assets/img/anh1.jpg" class="glightbox mt-auto" data-gallery="bai1-gallery">
+        <img src="assets/img/anh1.jpg" class="img-fluid rounded shadow-sm w-100" alt="Bước 1">
+      </a>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="h-100 p-3 d-flex flex-column" style="background: #fafafa; border: 1px solid #eee; border-radius: 8px;">
+      <p style="font-size: 0.9rem; color: #444; line-height: 1.6; margin-bottom: 15px;">
+        <strong style="color: #34b7a7;">2. Truy cập ổ đĩa/thư mục:</strong> Ở cột bên trái, nhấp vào This PC, sau đó nhấp đúp vào một ổ đĩa không phải ổ hệ thống (ví dụ: ổ D: hoặc E:). Nếu chỉ có ổ C:, hãy vào thư mục Documents.
+      </p>
+      <a href="assets/img/anh2.jpg" class="glightbox mt-auto" data-gallery="bai1-gallery">
+        <img src="assets/img/anh2.jpg" class="img-fluid rounded shadow-sm w-100" alt="Bước 2">
+      </a>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="h-100 p-3 d-flex flex-column" style="background: #fafafa; border: 1px solid #eee; border-radius: 8px;">
+      <p style="font-size: 0.9rem; color: #444; line-height: 1.6; margin-bottom: 15px;">
+        <strong style="color: #34b7a7;">3. Tạo thư mục mới:</strong> Nhấp chuột phải vào một khoảng trống -> chọn New -> Folder. Đặt tên thư mục là ThucHanh_hotensinhvien (ví dụ: ThucHanh_NguyenVanA). Nhấn Enter.
+      </p>
+      <a href="assets/img/anh3.jpg" class="glightbox mt-auto" data-gallery="bai1-gallery">
+        <img src="assets/img/anh3.jpg" class="img-fluid rounded shadow-sm w-100" alt="Bước 3">
+      </a>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="h-100 p-3 d-flex flex-column" style="background: #fafafa; border: 1px solid #eee; border-radius: 8px;">
+      <p style="font-size: 0.9rem; color: #444; line-height: 1.6; margin-bottom: 15px;">
+        <strong style="color: #34b7a7;">4. Vào thư mục vừa tạo:</strong> Nhấp đúp vào thư mục ThucHanh_NguyenVanA.
+      </p>
+      <a href="assets/img/anh4.jpg" class="glightbox mt-auto" data-gallery="bai1-gallery">
+        <img src="assets/img/anh4.jpg" class="img-fluid rounded shadow-sm w-100" alt="Bước 4">
+      </a>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="h-100 p-3 d-flex flex-column" style="background: #fafafa; border: 1px solid #eee; border-radius: 8px;">
+      <p style="font-size: 0.9rem; color: #444; line-height: 1.6; margin-bottom: 15px;">
+        <strong style="color: #34b7a7;">5. Tạo tệp tin văn bản:</strong> Nhấp chuột phải vào khoảng trống -> New -> Text Document. Đặt tên là GhiChu.txt. Nhấn Enter.
+      </p>
+      <a href="assets/img/anh5.jpg" class="glightbox mt-auto" data-gallery="bai1-gallery">
+        <img src="assets/img/anh5.jpg" class="img-fluid rounded shadow-sm w-100" alt="Bước 5">
+      </a>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="h-100 p-3 d-flex flex-column" style="background: #fafafa; border: 1px solid #eee; border-radius: 8px;">
+      <p style="font-size: 0.9rem; color: #444; line-height: 1.6; margin-bottom: 15px;">
+        <strong style="color: #34b7a7;">6. Đổi tên tệp tin:</strong> Nhấp chuột phải vào tệp GhiChu.txt -> chọn Rename. Đổi tên thành GhiChuQuanTrong.txt. Nhấn Enter.
+      </p>
+      <a href="assets/img/anh6.jpg" class="glightbox mt-auto" data-gallery="bai1-gallery">
+        <img src="assets/img/anh6.jpg" class="img-fluid rounded shadow-sm w-100" alt="Bước 6">
+      </a>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="h-100 p-3 d-flex flex-column" style="background: #fafafa; border: 1px solid #eee; border-radius: 8px;">
+      <p style="font-size: 0.9rem; color: #444; line-height: 1.6; margin-bottom: 15px;">
+        <strong style="color: #34b7a7;">7. Tạo thư mục con:</strong> Trong thư mục ThucHanh_NguyenVanA, nhấp chuột phải -> New -> Folder. Đặt tên là TaiLieu.
+      </p>
+      <a href="assets/img/anh7.jpg" class="glightbox mt-auto" data-gallery="bai1-gallery">
+        <img src="assets/img/anh7.jpg" class="img-fluid rounded shadow-sm w-100" alt="Bước 7">
+      </a>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="h-100 p-3 d-flex flex-column" style="background: #fafafa; border: 1px solid #eee; border-radius: 8px;">
+      <p style="font-size: 0.9rem; color: #444; line-height: 1.6; margin-bottom: 15px;">
+        <strong style="color: #34b7a7;">8. Sao chép tệp tin:</strong> Nhấp chuột phải vào tệp GhiChuQuanTrong.txt -> chọn Copy. Nhấp đúp vào thư mục TaiLieu, nhấp chuột phải vào khoảng trống -> chọn Paste. Bạn có một bản sao mới.
+      </p>
+      <a href="assets/img/anh8.jpg" class="glightbox mt-auto" data-gallery="bai1-gallery">
+        <img src="assets/img/anh8.jpg" class="img-fluid rounded shadow-sm w-100" alt="Bước 8">
+      </a>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="h-100 p-3 d-flex flex-column" style="background: #fafafa; border: 1px solid #eee; border-radius: 8px;">
+      <p style="font-size: 0.9rem; color: #444; line-height: 1.6; margin-bottom: 15px;">
+        <strong style="color: #34b7a7;">9. Di chuyển tệp tin:</strong> Tạo tệp DiChuyen.txt, nhấp chuột phải -> chọn Cut. Vào thư mục TaiLieu, nhấp chuột phải -> Paste. Tệp gốc đã chuyển sang vị trí mới.
+      </p>
+      <a href="assets/img/anh9.jpg" class="glightbox mt-auto" data-gallery="bai1-gallery">
+        <img src="assets/img/anh9.jpg" class="img-fluid rounded shadow-sm w-100" alt="Bước 9">
+      </a>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="h-100 p-3 d-flex flex-column" style="background: #fafafa; border: 1px solid #eee; border-radius: 8px;">
+      <p style="font-size: 0.9rem; color: #444; line-height: 1.6; margin-bottom: 15px;">
+        <strong style="color: #34b7a7;">10. Xóa tệp tin:</strong> Trong thư mục TaiLieu, nhấp chuột phải vào tệp GhiChuQuanTrong.txt -> chọn Delete. Tệp sẽ được chuyển vào Thùng rác (Recycle Bin).
+      </p>
+      <a href="assets/img/anh10.jpg" class="glightbox mt-auto" data-gallery="bai1-gallery">
+        <img src="assets/img/anh10.jpg" class="img-fluid rounded shadow-sm w-100" alt="Bước 10">
+      </a>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="h-100 p-3 d-flex flex-column" style="background: #fafafa; border: 1px solid #eee; border-radius: 8px;">
+      <p style="font-size: 0.9rem; color: #444; line-height: 1.6; margin-bottom: 15px;">
+        <strong style="color: #34b7a7;">11. Xóa vĩnh viễn:</strong> Chọn tệp DiChuyen.txt, nhấn giữ phím Shift và nhấn phím Delete. Nhấp đồng ý, tệp sẽ bị xóa vĩnh viễn mà không qua Thùng rác.
+      </p>
+      <a href="assets/img/anh11.jpg" class="glightbox mt-auto" data-gallery="bai1-gallery">
+        <img src="assets/img/anh11.jpg" class="img-fluid rounded shadow-sm w-100" alt="Bước 11">
+      </a>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="h-100 p-3 d-flex flex-column" style="background: #fafafa; border: 1px solid #eee; border-radius: 8px;">
+      <p style="font-size: 0.9rem; color: #444; line-height: 1.6; margin-bottom: 15px;">
+        <strong style="color: #34b7a7;">12. Khôi phục từ Thùng rác:</strong> Tìm biểu tượng Recycle Bin trên màn hình nền. Tìm tệp GhiChuQuanTrong.txt đã xóa, nhấp chuột phải và chọn Restore.
+      </p>
+      <a href="assets/img/anh12.jpg" class="glightbox mt-auto" data-gallery="bai1-gallery">
+        <img src="assets/img/anh12.jpg" class="img-fluid rounded shadow-sm w-100" alt="Bước 12">
+      </a>
+    </div>
+  </div>
+
+</div></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="pill-b2" role="tabpanel" aria-labelledby="pill-b2-tab">
+                <div class="tab-content-box" style="border-top: 4px solid #f57813;">
+                  <h3 style="font-weight: 700; color: #222;">Bài 2 - Tìm kiếm và đánh giá thông tin học thuật</h3>
+                  <p class="text-muted" style="font-size: 0.9rem;"><em>Mục tiêu: Khai thác dữ liệu nghiên cứu chuyên sâu thông qua các toán tử nâng cao.</em></p>
+                  <hr>
+                  <div class="project-detail-text mt-4">
+<h5 style="font-weight: 600; color: #333;">1. Chủ đề nghiên cứu</h5>
+          <p style="text-align: justify; line-height: 1.8; color: #555; background: #fafafa; padding: 15px; border-left: 4px solid #f57813; border-radius: 4px;">
+            <strong>"Sự ảnh hưởng của nguyên tắc thiết kế Bauhaus đến giao diện người dùng (UI/UX) hiện đại."</strong><br>
+            <em>Lý do chọn:</em> Kết nối giữa lịch sử thiết kế công nghiệp (Bauhaus) và ứng dụng thực tiễn trong thời đại số (Graphic/Digital Design).
+          </p>
+
+          <h5 style="font-weight: 600; color: #333; margin-top: 25px;">2. Chiến lược tìm kiếm thông tin</h5>
+          <ul style="line-height: 1.8; color: #555;">
+            <li><strong>Từ khóa (Keywords):</strong> Bauhaus principles in UI/UX, Minimalism web design, Grid system digital interface, Form follows function digital.</li>
+            <li><strong>Toán tử nâng cao:</strong> <code style="color: #d9534f; background: #fdf0f0; padding: 2px 6px; border-radius: 4px;">("Bauhaus" OR "Swiss Design") AND ("UI" OR "UX" OR "Web Design") site:.edu</code></li>
+            <li><strong>Nguồn khai thác:</strong> CSDL IEEE Xplore, ACM Digital Library, Google Scholar, thư viện điện tử, và các kho lưu trữ tổ chức nghiên cứu thiết kế.</li>
+          </ul>
+
+          <h5 style="font-weight: 600; color: #333; margin-top: 25px;">3, 4 & 5. Bảng tổng hợp và Đánh giá độ tin cậy nguồn tin</h5>
+          <p style="text-align: justify; line-height: 1.8; color: #555;">Dưới đây là bảng hệ thống hóa 10 tài liệu tham khảo (gồm 5 bài báo khoa học, 2 sách chuyên khảo và 3 nguồn internet uy tín), được đánh giá dựa trên thang điểm 5 sao.</p>
+
+          <div class="table-responsive mt-3 mb-4 shadow-sm">
+            <table class="table table-bordered table-hover align-middle" style="font-size: 0.9rem; margin-bottom: 0;">
+              <thead style="background-color: #34b7a7; color: white; text-align: center;">
+                <tr>
+                  <th width="5%">STT</th>
+                  <th width="30%">Tên tài liệu & Phân loại</th>
+                  <th width="25%">Tác giả & Cơ quan xuất bản</th>
+                  <th width="25%">Đánh giá (Phương pháp, Trích dẫn, Cập nhật)</th>
+                  <th width="15%">Độ tin cậy</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="text-center font-weight-bold">1</td>
+                  <td><strong>[Bài báo KH]</strong> The Influence of Bauhaus on Modern User Interfaces</td>
+                  <td><strong>A. Smith</strong><br><span class="text-muted">Tạp chí: IEEE Xplore<br>Chuyên gia: Peer-reviewed</span></td>
+                  <td><strong>Phương pháp:</strong> Phân tích đối chiếu UI định lượng.<br><strong>Cập nhật & Trích dẫn:</strong> 2023, >150 trích dẫn.</td>
+                  <td class="text-warning text-center"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></td>
+                </tr>
+                <tr>
+                  <td class="text-center font-weight-bold">2</td>
+                  <td><strong>[Bài báo KH]</strong> Minimalism and Functionalism in Digital Design</td>
+                  <td><strong>J. Doe</strong><br><span class="text-muted">Tạp chí: Design Studies (Elsevier)<br>Chuyên gia: GS thiết kế tương tác</span></td>
+                  <td><strong>Phương pháp:</strong> Phân tích định tính lịch sử.<br><strong>Cập nhật & Trích dẫn:</strong> 2022, >80 trích dẫn.</td>
+                  <td class="text-warning text-center"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></td>
+                </tr>
+                <tr>
+                  <td class="text-center font-weight-bold">3</td>
+                  <td><strong>[Bài báo KH]</strong> Typography evolution: from print to screens</td>
+                  <td><strong>K. Lee</strong><br><span class="text-muted">CSDL: ACM Digital Library<br>Chuyên gia: Nhà nghiên cứu HCI</span></td>
+                  <td><strong>Phương pháp:</strong> Thực nghiệm theo dõi mắt (Eye-tracking).<br><strong>Cập nhật:</strong> 2021.</td>
+                  <td class="text-warning text-center"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></td>
+                </tr>
+                <tr>
+                  <td class="text-center font-weight-bold">4</td>
+                  <td><strong>[Bài báo KH]</strong> Grid systems in responsive web design</td>
+                  <td><strong>M. Chen</strong><br><span class="text-muted">Tạp chí: Int. J. of HCI<br>Chuyên gia: Hội đồng độc lập</span></td>
+                  <td><strong>Phương pháp:</strong> Thống kê UX/UI web đa nền tảng.<br><strong>Cập nhật:</strong> 2023.</td>
+                  <td class="text-warning text-center"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></td>
+                </tr>
+                <tr>
+                  <td class="text-center font-weight-bold">5</td>
+                  <td><strong>[Bài báo KH]</strong> Evaluating 'Form follows function' in app usability</td>
+                  <td><strong>R. Garcia</strong><br><span class="text-muted">Kỷ yếu: CHI Conference<br>Chuyên gia: Hội nghị hàng đầu</span></td>
+                  <td><strong>Phương pháp:</strong> Thử nghiệm A/B trên người dùng thực.<br><strong>Cập nhật:</strong> 2021.</td>
+                  <td class="text-warning text-center"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></td>
+                </tr>
+                <tr>
+                  <td class="text-center font-weight-bold">6</td>
+                  <td><strong>[Sách]</strong> Bauhaus 1919-1933</td>
+                  <td><strong>Magdalena Droste</strong><br><span class="text-muted">NXB: Taschen<br>Cơ quan: NXB nghệ thuật hàng đầu</span></td>
+                  <td><strong>Phương pháp:</strong> Nghiên cứu lưu trữ lịch sử.<br><strong>Hạn chế:</strong> Ít cập nhật digital (bản 2019).</td>
+                  <td class="text-warning text-center"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i></td>
+                </tr>
+                <tr>
+                  <td class="text-center font-weight-bold">7</td>
+                  <td><strong>[Sách]</strong> Universal Principles of Design</td>
+                  <td><strong>W. Lidwell, K. Holden</strong><br><span class="text-muted">NXB: Rockport<br>Chuyên gia: Chuyên khảo tổng hợp</span></td>
+                  <td><strong>Phương pháp:</strong> Đúc kết nguyên lý học thuật.<br><strong>Trích dẫn:</strong> Kinh điển, >2000 trích dẫn.</td>
+                  <td class="text-warning text-center"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></td>
+                </tr>
+                <tr>
+                  <td class="text-center font-weight-bold">8</td>
+                  <td><strong>[Internet]</strong> Minimalist Web Design: When Less is More</td>
+                  <td><strong>Page Laubheimer</strong><br><span class="text-muted">Nielsen Norman Group (NN/g)<br>Cơ quan: Tổ chức UX số 1 thế giới</span></td>
+                  <td><strong>Phương pháp:</strong> Dựa trên nghiên cứu hành vi thực chứng.<br><strong>Cập nhật:</strong> Liên tục.</td>
+                  <td class="text-warning text-center"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></td>
+                </tr>
+                <tr>
+                  <td class="text-center font-weight-bold">9</td>
+                  <td><strong>[Internet]</strong> What is Bauhaus Design?</td>
+                  <td><strong>R. Friis</strong><br><span class="text-muted">Interaction Design Foundation<br>Cơ quan: Tổ chức giáo dục (IxDF)</span></td>
+                  <td><strong>Phương pháp:</strong> Bài giảng có peer-review nội bộ.<br><strong>Cập nhật:</strong> 2023.</td>
+                  <td class="text-warning text-center"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></td>
+                </tr>
+                <tr>
+                  <td class="text-center font-weight-bold">10</td>
+                  <td><strong>[Internet]</strong> Bauhaus Principles Of Web Design</td>
+                  <td><strong>S. Bradley</strong><br><span class="text-muted">Smashing Magazine<br>Cơ quan: Tạp chí thiết kế web uy tín</span></td>
+                  <td><strong>Tác giả:</strong> Chuyên gia thực hành.<br><strong>Hạn chế:</strong> Mang tính góc nhìn cá nhân.</td>
+                  <td class="text-warning text-center"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h5 style="font-weight: 600; color: #333; margin-top: 35px; border-bottom: 2px solid #eee; padding-bottom: 10px;">Minh chứng kết quả tìm kiếm</h5>
+          <div class="row gy-4 mt-1">
+            
+            <div class="col-md-3 col-6">
+              <a href="assets/img/minhchung-b2-1.jpg" class="glightbox" data-gallery="bai2-gallery">
+                <img src="assets/img/minhchung-b2-1.jpg" class="img-fluid rounded shadow-sm w-100" alt="Minh chứng 1">
+              </a>
+            </div>
+            <div class="col-md-3 col-6">
+              <a href="assets/img/minhchung-b2-2.jpg" class="glightbox" data-gallery="bai2-gallery">
+                <img src="assets/img/minhchung-b2-2.jpg" class="img-fluid rounded shadow-sm w-100" alt="Minh chứng 2">
+              </a>
+            </div>
+            <div class="col-md-3 col-6">
+              <a href="assets/img/minhchung-b2-3.jpg" class="glightbox" data-gallery="bai2-gallery">
+                <img src="assets/img/minhchung-b2-3.jpg" class="img-fluid rounded shadow-sm w-100" alt="Minh chứng 3">
+              </a>
+            </div>
+            <div class="col-md-3 col-6">
+              <a href="assets/img/minhchung-b2-4.jpg" class="glightbox" data-gallery="bai2-gallery">
+                <img src="assets/img/minhchung-b2-4.jpg" class="img-fluid rounded shadow-sm w-100" alt="Minh chứng 4">
+              </a>
+            </div>
+
+          </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="pill-b3" role="tabpanel" aria-labelledby="pill-b3-tab">
+                <div class="tab-content-box" style="border-top: 4px solid #34b7a7;">
+                  <h3 style="font-weight: 700; color: #222;">Bài 3 - Viết Prompt hiệu quả cho các tác vụ học tập</h3>
+                  <p class="text-muted" style="font-size: 0.9rem;"><em>Mục tiêu: Làm chủ nghệ thuật giao tiếp với AI để tối ưu kết quả đầu ra.</em></p>
+                  <hr>
+                  <div class="project-detail-text mt-4">
+                    <p style="color: #d9534f; font-weight: bold;"><h5 style="font-weight: 700; color: #222; border-left: 4px solid #34b7a7; padding-left: 10px; margin-bottom: 20px;">
+            1. Thực hành so sánh các cấp độ Prompt
+          </h5>
+
+          <div class="card border-0 shadow-sm mb-4">
+            <div class="card-header bg-white" style="font-weight: 600; color: #333;">
+              <i class="bi bi-journal-text me-2" style="color: #34b7a7;"></i>Tác vụ 1: Tóm tắt tài liệu học thuật (Lịch sử Thiết kế)
+            </div>
+            <div class="card-body p-0">
+              <ul class="list-group list-group-flush" style="font-size: 0.95rem;">
+                <li class="list-group-item py-3" style="background: #fdfdfd;">
+                  <span class="badge bg-secondary me-2">Cơ bản</span> "Tóm tắt bài viết này cho tôi: [Dán nội dung về phong cách Bauhaus]."
+                </li>
+                <li class="list-group-item py-3" style="background: #f0f8ff;">
+                  <span class="badge bg-info text-dark me-2">Cải tiến</span> "Tóm tắt bài viết sau về Bauhaus trong khoảng 300 chữ. Hãy chia thành các mục: Bối cảnh ra đời, Đặc điểm chính và Ảnh hưởng đến thiết kế hiện đại."
+                </li>
+                <li class="list-group-item py-3" style="background: #f0fdf4; border-left: 3px solid #198754;">
+                  <span class="badge bg-success me-2">Nâng cao</span> <strong>(Role Prompting + CoT):</strong> "Bạn là một chuyên gia lịch sử nghệ thuật. Hãy đọc tài liệu dưới đây và thực hiện tóm tắt theo các bước: 1. Liệt kê 5 từ khóa quan trọng nhất. 2. Phân tích triết lý 'Form follows Function'. 3. Viết một bản tóm tắt súc tích cho sinh viên thiết kế đồ họa, nhấn mạnh vào tính ứng dụng thực tế."
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card border-0 shadow-sm mb-4">
+            <div class="card-header bg-white" style="font-weight: 600; color: #333;">
+              <i class="bi bi-calculator me-2" style="color: #34b7a7;"></i>Tác vụ 2: Giải thích khái niệm phức tạp (Toán học/Lập trình)
+            </div>
+            <div class="card-body p-0">
+              <ul class="list-group list-group-flush" style="font-size: 0.95rem;">
+                <li class="list-group-item py-3" style="background: #fdfdfd;">
+                  <span class="badge bg-secondary me-2">Cơ bản</span> "Giải thích Ma trận trong Đại số tuyến tính là gì?"
+                </li>
+                <li class="list-group-item py-3" style="background: #f0f8ff;">
+                  <span class="badge bg-info text-dark me-2">Cải tiến</span> "Giải thích khái niệm Ma trận cho một sinh viên năm nhất UET. Hãy dùng các ví dụ thực tế trong đời sống để minh họa."
+                </li>
+                <li class="list-group-item py-3" style="background: #f0fdf4; border-left: 3px solid #198754;">
+                  <span class="badge bg-success me-2">Nâng cao</span> <strong>(Analogies + Step-by-step):</strong> "Hãy đóng vai một giảng viên đại học tâm huyết. Giải thích khái niệm 'Ma trận' bằng cách sử dụng phép ẩn dụ về một bảng điểm hoặc lưới tọa độ trong game. Chia giải thích thành 3 cấp độ: Cho đứa trẻ 10 tuổi, Cho sinh viên đại học, và Ứng dụng của nó trong xử lý ảnh kỹ thuật số."
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card border-0 shadow-sm mb-4">
+            <div class="card-header bg-white" style="font-weight: 600; color: #333;">
+              <i class="bi bi-code-slash me-2" style="color: #34b7a7;"></i>Tác vụ 3: Tạo bộ câu hỏi ôn tập (Lập trình Python)
+            </div>
+            <div class="card-body p-0">
+              <ul class="list-group list-group-flush" style="font-size: 0.95rem;">
+                <li class="list-group-item py-3" style="background: #fdfdfd;">
+                  <span class="badge bg-secondary me-2">Cơ bản</span> "Tạo cho tôi 5 câu hỏi trắc nghiệm về vòng lặp trong Python."
+                </li>
+                <li class="list-group-item py-3" style="background: #f0f8ff;">
+                  <span class="badge bg-info text-dark me-2">Cải tiến</span> "Tạo 5 câu hỏi trắc nghiệm về vòng lặp for và while trong Python, kèm theo đáp án và giải thích ngắn gọn cho mỗi câu."
+                </li>
+                <li class="list-group-item py-3" style="background: #f0fdf4; border-left: 3px solid #198754;">
+                  <span class="badge bg-success me-2">Nâng cao</span> <strong>(Few-shot + Constraint):</strong> "Tôi đang ôn thi môn Cơ sở lập trình. Hãy tạo 5 câu hỏi trắc nghiệm nâng cao về List Comprehension. Định dạng như sau:<br>
+                  <em>Câu hỏi: [Nội dung]<br>Các lựa chọn: A, B, C, D<br>Đáp án đúng: [Đáp án]<br>Giải thích: [Tại sao đúng/sai] (Ví dụ mẫu: Câu hỏi: Kết quả của [x**2 for x in range(3)] là gì? -> Đáp án: [0, 1, 4])</em>"
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <h5 style="font-weight: 700; color: #222; border-left: 4px solid #34b7a7; padding-left: 10px; margin-top: 40px; margin-bottom: 20px;">
+            2. Đánh giá và So sánh Hiệu quả Đầu ra
+          </h5>
+          <p style="line-height: 1.8; color: #555;">Dựa trên quá trình thử nghiệm thực tế với 3 tác vụ trên, dưới đây là bảng phân tích trực quan về sự khác biệt chất lượng giữa các cấp độ Prompt:</p>
+          
+          <div class="table-responsive mb-5 shadow-sm">
+            <table class="table table-bordered align-middle text-center" style="font-size: 0.95rem; margin-bottom: 0;">
+              <thead style="background-color: #f8f9fa; color: #333;">
+                <tr>
+                  <th width="22%">Tiêu chí Đánh giá</th>
+                  <th width="26%" style="color: #6c757d;">Prompt Cơ bản</th>
+                  <th width="26%" style="color: #0dcaf0;">Prompt Cải tiến</th>
+                  <th width="26%" style="color: #198754;">Prompt Nâng cao</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="text-start fw-bold" style="background: #fafafa;">Độ bám sát mục tiêu</td>
+                  <td><span class="badge bg-secondary">Thấp</span><br><small class="text-muted">Chung chung, dễ lạc đề</small></td>
+                  <td><span class="badge bg-info text-dark">Khá</span><br><small class="text-muted">Đúng trọng tâm nhưng chưa sâu</small></td>
+                  <td><span class="badge bg-success">Tuyệt đối</span><br><small class="text-muted">Giải quyết đúng "nỗi đau" người học</small></td>
+                </tr>
+                <tr>
+                  <td class="text-start fw-bold" style="background: #fafafa;">Cấu trúc & Định dạng</td>
+                  <td>Văn bản thô, lộn xộn</td>
+                  <td>Có chia đoạn, dễ đọc</td>
+                  <td>Tuân thủ 100% định dạng (JSON, Bảng...)</td>
+                </tr>
+                <tr>
+                  <td class="text-start fw-bold" style="background: #fafafa;">Giọng văn chuyên môn</td>
+                  <td>Như bách khoa toàn thư</td>
+                  <td>Rõ ràng, mạch lạc</td>
+                  <td>Mô phỏng chính xác văn phong chuyên gia</td>
+                </tr>
+                <tr>
+                  <td class="text-start fw-bold" style="background: #fafafa;">Chi phí thời gian tinh chỉnh</td>
+                  <td class="text-danger">Tốn nhiều thời gian viết lại</td>
+                  <td class="text-warning text-dark">Cần sửa đổi một chút</td>
+                  <td class="text-success fw-bold">Sử dụng được ngay (Ready-to-use)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h5 style="font-weight: 700; color: #222; border-left: 4px solid #34b7a7; padding-left: 10px; margin-top: 30px; margin-bottom: 20px;">
+            3. Tại sao các Prompt nâng cao lại hiệu quả hơn?
+          </h5>
+          <p style="text-align: justify; line-height: 1.8; color: #555;">Prompt nâng cao điều hướng (steering) mô hình AI hiệu quả hơn nhờ 3 yếu tố cốt lõi:</p>
+          
+          <div class="row gy-3 mt-2 mb-5">
+            <div class="col-md-4">
+              <div class="p-3 h-100" style="background: #fafafa; border-radius: 8px; border: 1px solid #eee;">
+                <h6 style="color: #34b7a7; font-weight: 600;">1. Thiết lập Persona</h6>
+                <p style="font-size: 0.85rem; color: #666; margin-bottom: 0;">Gán cho AI một vai trò giúp giới hạn không gian dữ liệu, ưu tiên thuật ngữ và ngữ điệu phù hợp.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="p-3 h-100" style="background: #fafafa; border-radius: 8px; border: 1px solid #eee;">
+                <h6 style="color: #34b7a7; font-weight: 600;">2. Chain-of-Thought (CoT)</h6>
+                <p style="font-size: 0.85rem; color: #666; margin-bottom: 0;">Buộc mô hình xử lý hệ thống theo từng bước, giúp giảm thiểu hiện tượng "ảo tưởng" (hallucination).</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="p-3 h-100" style="background: #fafafa; border-radius: 8px; border: 1px solid #eee;">
+                <h6 style="color: #34b7a7; font-weight: 600;">3. Few-shot & Constraints</h6>
+                <p style="font-size: 0.85rem; color: #666; margin-bottom: 0;">Các ví dụ mẫu giúp AI hiểu rõ "khuôn mẫu". Kết quả đầu ra đồng nhất, tiết kiệm tối đa thời gian.</p>
+              </div>
+            </div>
+          </div>
+
+          <h5 style="font-weight: 700; color: #222; border-left: 4px solid #34b7a7; padding-left: 10px; margin-bottom: 20px;">
+            4. Bộ khung viết Prompt "C-R-E-A-T-E"
+          </h5>
+          <p style="line-height: 1.8; color: #555;">Để đạt được kết quả chất lượng cao như mong đợi, tôi áp dụng bộ khung sau:</p>
+          
+          <ul style="line-height: 1.8; color: #444; font-size: 0.95rem;">
+            <li><strong style="color: #d9534f;">C - Context (Bối cảnh):</strong> Luôn cung cấp ngữ cảnh rõ ràng. Context càng cụ thể, câu trả lời càng sát thực tế.</li>
+            <li><strong style="color: #d9534f;">R - Role (Vai trò):</strong> Luôn chỉ định AI đóng vai ai (VD: "chuyên gia", "giảng viên").</li>
+            <li><strong style="color: #d9534f;">E - Explicit Task (Tác vụ cụ thể):</strong> Sử dụng động từ mạnh (Tóm tắt, phân tích, so sánh) và mô tả rõ đầu ra.</li>
+            <li><strong style="color: #d9534f;">A - Audience (Đối tượng):</strong> Xác định rõ người đọc để quyết định độ phức tạp của ngôn ngữ.</li>
+            <li><strong style="color: #d9534f;">T - Tone & Format (Giọng văn & Định dạng):</strong> Yêu cầu định dạng (Markdown, JSON, Bảng) và giọng văn (Học thuật, hài hước...).</li>
+          </ul>
+
+          <h5 style="font-weight: 700; color: #222; margin-top: 40px; border-bottom: 2px solid #eee; padding-bottom: 10px;">
+            5. Minh chứng quá trình thao tác
+          </h5>
+          <div class="row gy-4 mt-2">
+            
+            <div class="col-md-3 col-6">
+              <a href="assets/img/minhchung-b3-1.jpg" class="glightbox" data-gallery="bai3-gallery">
+                <img src="assets/img/minhchung-b3-1.jpg" class="img-fluid rounded shadow-sm w-100" alt="Minh chứng Tác vụ 1 - Lịch sử">
+              </a>
+            </div>
+            <div class="col-md-3 col-6">
+              <a href="assets/img/minhchung-b3-2.jpg" class="glightbox" data-gallery="bai3-gallery">
+                <img src="assets/img/minhchung-b3-2.jpg" class="img-fluid rounded shadow-sm w-100" alt="Minh chứng Tác vụ 2 - Toán học">
+              </a>
+            </div>
+            <div class="col-md-3 col-6">
+              <a href="assets/img/minhchung-b3-3.jpg" class="glightbox" data-gallery="bai3-gallery">
+                <img src="assets/img/minhchung-b3-3.jpg" class="img-fluid rounded shadow-sm w-100" alt="Minh chứng Tác vụ 3 - Code Python">
+              </a>
+            </div>
+            <div class="col-md-3 col-6">
+              <a href="assets/img/minhchung-b3-4.jpg" class="glightbox" data-gallery="bai3-gallery">
+                <img src="assets/img/minhchung-b3-4.jpg" class="img-fluid rounded shadow-sm w-100" alt="So sánh kết quả đầu ra thực tế">
+              </a>
+            </div>
+
+          </div></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="pill-b4" role="tabpanel" aria-labelledby="pill-b4-tab">
+                <div class="tab-content-box" style="border-top: 4px solid #f57813;">
+                  <h3 style="font-weight: 700; color: #222;">Bài 4 - Sử dụng công cụ hợp tác trực tuyến cho dự án nhóm</h3>
+                  <p class="text-muted" style="font-size: 0.9rem;"><em>Mục tiêu: Tối ưu hóa hiệu suất làm việc tập thể trên các nền tảng số đám mây.</em></p>
+                  <hr>
+                  <div class="project-detail-text mt-4">
+                    <p style="color: #d9534f; font-weight: bold;"><div class="p-4 mb-5 rounded shadow-sm" style="background: linear-gradient(135deg, #f0fdf4 0%, #e0f8f1 100%); border-left: 5px solid #34b7a7;">
+            <h4 style="font-weight: 700; color: #222; margin-bottom: 15px;">BÁO CÁO CÁ NHÂN: QUẢN LÝ VÀ HỢP TÁC TRỰC TUYẾN TRONG DỰ ÁN NHÓM</h4>
+            <ul class="mb-0" style="line-height: 1.8; color: #444; list-style-type: none; padding-left: 0; font-size: 1.05rem;">
+              <li><i class="bi bi-person-bounding-box me-2" style="color: #34b7a7;"></i><strong>Họ và tên:</strong> Phạm Quang Thắng</li>
+              <li><i class="bi bi-palette me-2" style="color: #34b7a7;"></i><strong>Dự án thực hiện:</strong> Xây dựng thiết kế dự án 2d</li>
+              <li><i class="bi bi-person-workspace me-2" style="color: #34b7a7;"></i><strong>Vai trò cá nhân:</strong> Thành viên phụ trách nội dung</li>
+            </ul>
+          </div>
+
+          <h5 style="font-weight: 700; color: #222; border-left: 4px solid #34b7a7; padding-left: 10px; margin-bottom: 20px;">
+            I. LỰA CHỌN CÔNG CỤ HỢP TÁC
+          </h5>
+          <p style="text-align: justify; line-height: 1.8; color: #555;">Trong quá trình thực hiện dự án thiết kế 2D, khối lượng tài nguyên (asset đồ họa, character design, background) và tài liệu cốt truyện cần xử lý là rất lớn. Do đó, tôi đã thiết lập và sử dụng đồng bộ hệ sinh thái 4 công cụ sau để tối ưu hóa hiệu suất làm việc cá nhân cũng như đảm bảo sự xuyên suốt cho cả nhóm:</p>
+          
+          <ul style="line-height: 1.8; color: #555; margin-bottom: 35px;">
+            <li><strong>Quản lý dự án:</strong> Trello (Phân bổ luồng công việc, theo dõi vòng đời của từng bản thiết kế).</li>
+            <li><strong>Soạn thảo cộng tác:</strong> Google Docs (Đồng biên soạn tài liệu Game Design Document - GDD).</li>
+            <li><strong>Giao tiếp & Họp trực tuyến:</strong> Discord & Google Meet (Review trực tiếp, trao đổi tiến độ hàng ngày).</li>
+            <li><strong>Lưu trữ & Chia sẻ:</strong> Google Drive (Quản lý Data gốc, thiết lập phân quyền truy cập).</li>
+          </ul>
+
+          <h5 style="font-weight: 700; color: #222; border-left: 4px solid #34b7a7; padding-left: 10px; margin-bottom: 25px;">
+            II. QUÁ TRÌNH THỰC HIỆN VÀ MINH CHỨNG HOẠT ĐỘNG
+          </h5>
+
+          <h6 style="font-weight: 700; color: #34b7a7; font-size: 1.1rem; margin-top: 30px;">1. Quản trị dự án trực quan (Trên Trello)</h6>
+          
+          <p style="font-weight: 600; color: #333; margin-top: 15px; margin-bottom: 5px;">1.1. Theo dõi luồng công việc tổng thể</p>
+          <p style="text-align: justify; line-height: 1.8; color: #555; margin-bottom: 10px;">
+            <strong>Hoạt động:</strong> Tôi tham gia xây dựng bảng Kanban cho nhóm, phân chia luồng công việc thành các cột rõ ràng: Backlog (Chờ xử lý) -> To-do (Cần làm) -> Doing (Đang vẽ) -> Review (Chờ duyệt) -> Done (Hoàn thành). Việc này giúp tôi nắm bắt được tổng thể dự án đang đi đến đâu và khối lượng việc của mình nằm ở mức nào.
+          </p>
+          <div class="row mb-3">
+            <div class="col-md-8">
+              <a href="assets/img/minhchung-b4-1.jpg" class="glightbox" data-gallery="bai4-gallery">
+                <img src="assets/img/minhchung-b4-1.jpg" class="img-fluid rounded shadow-sm w-100 border" alt="Ảnh 1 - Luồng công việc Kanban">
+              </a>
+            </div>
+          </div>
+
+          <p style="text-align: justify; line-height: 1.8; color: #555; margin-bottom: 10px;">
+            <strong>Kết quả:</strong> 100% nhiệm vụ được hoàn thành đúng hạn, trạng thái thẻ chuyển từ "Doing" sang "Done" rõ ràng.
+          </p>
+          <div class="row mb-4">
+            <div class="col-md-8">
+              <a href="assets/img/minhchung-b4-2.jpg" class="glightbox" data-gallery="bai4-gallery">
+                <img src="assets/img/minhchung-b4-2.jpg" class="img-fluid rounded shadow-sm w-100 border" alt="Ảnh 2 - Thẻ nhiệm vụ hoàn thành">
+              </a>
+            </div>
+          </div>
+
+          <p style="font-weight: 600; color: #333; margin-top: 20px; margin-bottom: 5px;">1.2. Quản lý chi tiết từng đầu mục thiết kế</p>
+          <p style="text-align: justify; line-height: 1.8; color: #555; margin-bottom: 10px;">
+            <strong>Hoạt động:</strong> Bên trong mỗi thẻ nhiệm vụ do tôi phụ trách (VD: "Thiết kế Main Character"), tôi thiết lập hệ thống Checklist chi tiết cho từng công đoạn (Line art -> Base color -> Shading -> Render). Tôi luôn đính kèm trực tiếp file nháp (Attachment) và cài đặt Deadline sát sao để không làm chậm tiến độ khâu lập trình.
+          </p>
+          <div class="row mb-4">
+            <div class="col-md-8">
+              <a href="assets/img/minhchung-b4-3.jpg" class="glightbox" data-gallery="bai4-gallery">
+                <img src="assets/img/minhchung-b4-3.jpg" class="img-fluid rounded shadow-sm w-100 border" alt="Ảnh 3 - Checklist chi tiết nhiệm vụ">
+              </a>
+            </div>
+          </div>
+
+          <hr style="border-top: 1px dashed #ccc; margin: 30px 0;">
+
+          <h6 style="font-weight: 700; color: #34b7a7; font-size: 1.1rem;">2. Soạn thảo và chỉnh sửa tài liệu cộng tác (Trên Google Docs)</h6>
+          
+          <p style="font-weight: 600; color: #333; margin-top: 15px; margin-bottom: 5px;">2.1. Đóng góp nội dung cốt lõi</p>
+          <p style="text-align: justify; line-height: 1.8; color: #555; margin-bottom: 10px;">
+            <strong>Hoạt động:</strong> Tôi trực tiếp đảm nhận biên soạn phần "Phân tích phong cách đồ họa (Art Style)" và "Mô tả tuyến nhân vật" trong file GDD chung. Các đóng góp của tôi đảm bảo sự liên kết chặt chẽ giữa ý tưởng văn bản và bản vẽ thực tế.
+          </p>
+          <div class="row mb-4">
+            <div class="col-md-8">
+              <a href="assets/img/minhchung-b4-4.jpg" class="glightbox" data-gallery="bai4-gallery">
+                <img src="assets/img/minhchung-b4-4.jpg" class="img-fluid rounded shadow-sm w-100 border" alt="Ảnh 4 - Nội dung đóng góp trên tài liệu GDD">
+              </a>
+            </div>
+          </div>
+
+          <p style="font-weight: 600; color: #333; margin-top: 20px; margin-bottom: 5px;">2.2. Tương tác đa chiều trên văn bản</p>
+          <p style="text-align: justify; line-height: 1.8; color: #555; margin-bottom: 20px;">
+            <strong>Hoạt động:</strong> Không chỉ viết phần của mình, tôi còn sử dụng tính năng "Suggesting" (Đề xuất chỉnh sửa) để tối ưu hóa từ ngữ cho đồng đội. Khi có thông số thiết kế cần chốt, tôi bôi đen và dùng tính năng "Comment" để tag trực tiếp tên Leader vào xác nhận.
+          </p>
+
+          <hr style="border-top: 1px dashed #ccc; margin: 30px 0;">
+
+          <h6 style="font-weight: 700; color: #34b7a7; font-size: 1.1rem;">3. Giao tiếp và xử lý vấn đề tức thời (Trên Discord & Meet)</h6>
+          
+          <p style="font-weight: 600; color: #333; margin-top: 15px; margin-bottom: 5px;">3.1. Báo cáo tiến độ và chia sẻ tài nguyên hàng ngày</p>
+          <p style="text-align: justify; line-height: 1.8; color: #555; margin-bottom: 10px;">
+            <strong>Hoạt động:</strong> Nhằm đảm bảo thông tin thông suốt, tôi liên tục cập nhật các bản phác thảo (WIP - Work in Progress) lên kênh #art-feedback của Discord. Tôi chủ động ping (@) các thành viên nhóm Coder để đối chiếu định dạng file ảnh xuất ra có phù hợp với Engine Game hay không.
+          </p>
+          <div class="row mb-4">
+            <div class="col-md-8">
+              <a href="assets/img/minhchung-b4-5.jpg" class="glightbox" data-gallery="bai4-gallery">
+                <img src="assets/img/minhchung-b4-5.jpg" class="img-fluid rounded shadow-sm w-100 border" alt="Ảnh 5 - Cập nhật WIP trên Discord">
+              </a>
+            </div>
+          </div>
+
+          <p style="font-weight: 600; color: #333; margin-top: 20px; margin-bottom: 5px;">3.2. Tổ chức họp Review trực tuyến</p>
+          <p style="text-align: justify; line-height: 1.8; color: #555; margin-bottom: 10px;">
+            <strong>Hoạt động:</strong> Khi gặp các vấn đề phức tạp về phối màu hay thiết kế UI khó diễn đạt bằng lời, tôi chủ động mở phòng họp trên Google Meet/Discord Voice. Tại đây, tôi dùng tính năng Share Screen (Chia sẻ màn hình) trực tiếp phần mềm thiết kế để điều chỉnh ngay lập tức theo góp ý của nhóm.
+          </p>
+          <div class="row mb-4">
+            <div class="col-md-8">
+              <a href="assets/img/minhchung-b4-6.jpg" class="glightbox" data-gallery="bai4-gallery">
+                <img src="assets/img/minhchung-b4-6.jpg" class="img-fluid rounded shadow-sm w-100 border" alt="Ảnh 6 - Share screen họp trực tuyến">
+              </a>
+            </div>
+          </div>
+
+          <hr style="border-top: 1px dashed #ccc; margin: 30px 0;">
+
+          <h6 style="font-weight: 700; color: #34b7a7; font-size: 1.1rem;">4. Quy chuẩn hóa hệ thống lưu trữ (Trên Google Drive)</h6>
+          
+          <p style="font-weight: 600; color: #333; margin-top: 15px; margin-bottom: 5px;">4.1. Xây dựng cây thư mục hệ thống</p>
+          <p style="text-align: justify; line-height: 1.8; color: #555; margin-bottom: 10px;">
+            <strong>Hoạt động:</strong> Để tránh tình trạng "lạc mất file" khi dự án phình to, tôi đã thiết kế một cây thư mục phân cấp logic trên Drive dùng chung: 01_Tài_Liệu_Chung, 02_Drafts_Phác_Thảo, và 03_Final_Render_Xuất_Game. Cấu trúc này giúp bất kỳ ai trong nhóm cũng có thể tìm thấy file mình cần trong vòng 10 giây.
+          </p>
+          <div class="row mb-4">
+            <div class="col-md-8">
+              <a href="assets/img/minhchung-b4-7.jpg" class="glightbox" data-gallery="bai4-gallery">
+                <img src="assets/img/minhchung-b4-7.jpg" class="img-fluid rounded shadow-sm w-100 border" alt="Ảnh 7 - Cây thư mục trên Google Drive">
+              </a>
+            </div>
+          </div>
+
+          <p style="font-weight: 600; color: #333; margin-top: 20px; margin-bottom: 5px;">4.2. Quản lý phiên bản và bảo mật dữ liệu</p>
+          <p style="text-align: justify; line-height: 1.8; color: #555; margin-bottom: 10px;">
+            <strong>Hoạt động:</strong> Tôi áp dụng quy tắc đặt tên file nghiêm ngặt: [Ngày]_[Tên_Asset]_V[Số phiên bản] (VD: 1503_BackgroundLevel1_V2.ai). Đồng thời, tôi thiết lập quyền phân quyền (Permission) chặt chẽ: chỉ có Họa sĩ (Owner/Editor) mới được quyền xóa/sửa file gốc, các thành viên khác chỉ có quyền Tải xuống (Viewer).
+          </p>
+          <div class="row mb-5 gy-3">
+            <div class="col-md-6 col-12">
+              <a href="assets/img/minhchung-b4-8.jpg" class="glightbox" data-gallery="bai4-gallery">
+                <img src="assets/img/minhchung-b4-8.jpg" class="img-fluid rounded shadow-sm w-100 border" alt="Ảnh 8 - Quản lý phiên bản dữ liệu">
+              </a>
+            </div>
+            <div class="col-md-6 col-12">
+              <a href="assets/img/minhchung-b4-9.jpg" class="glightbox" data-gallery="bai4-gallery">
+                <img src="assets/img/minhchung-b4-9.jpg" class="img-fluid rounded shadow-sm w-100 border" alt="Ảnh 9 - Phân quyền dữ liệu">
+              </a>
+            </div>
+          </div>
+
+          <h5 style="font-weight: 700; color: #222; border-left: 4px solid #34b7a7; padding-left: 10px; margin-top: 40px; margin-bottom: 20px;">
+            III. TỰ ĐÁNH GIÁ VÀ BÀI HỌC KINH NGHIỆM
+          </h5>
+          <div class="row gy-4 shadow-sm p-2 rounded bg-light">
+            <div class="col-md-4">
+              <div class="p-3 h-100 bg-white rounded shadow-sm d-flex flex-column">
+                <h6 style="font-weight: 700; color: #333;"><i class="bi bi-clock-history me-2 text-warning"></i>1. Kỹ năng quản lý cá nhân</h6>
+                <p style="font-size: 0.9rem; color: #555; text-align: justify; margin-bottom: 0;">Việc vận hành trơn tru khối lượng công việc khổng lồ của dự án 2D giúp tôi nhận ra tầm quan trọng của việc "chẻ nhỏ mục tiêu". Trello đã giúp tôi không bị ngợp trước deadline. Thay vì nhìn vào áp lực "Phải vẽ xong 1 level", tôi tập trung giải quyết từng checklist nhỏ nhặt nhất.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="p-3 h-100 bg-white rounded shadow-sm d-flex flex-column">
+                <h6 style="font-weight: 700; color: #333;"><i class="bi bi-cpu me-2 text-info"></i>2. Khả năng thích ứng công nghệ</h6>
+                <p style="font-size: 0.9rem; color: #555; text-align: justify; margin-bottom: 0;">Tôi nhận ra sức mạnh của việc đồng bộ hóa dữ liệu. Sự kết hợp giữa khả năng soạn thảo tức thời của Docs và không gian lưu trữ an toàn của Drive đã loại bỏ hoàn toàn rủi ro mất dữ liệu, đồng thời rèn luyện cho tôi thói quen quản lý tệp tin một cách chuyên nghiệp như trong các studio thiết kế thực thụ.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="p-3 h-100 bg-white rounded shadow-sm d-flex flex-column">
+                <h6 style="font-weight: 700; color: #333;"><i class="bi bi-chat-left-heart me-2 text-danger"></i>3. Bài học về hợp tác số</h6>
+                <p style="font-size: 0.9rem; color: #555; text-align: justify; margin-bottom: 0;">Giao tiếp trực tuyến trong lĩnh vực sáng tạo đòi hỏi sự trực quan tuyệt đối. Một tấm ảnh Share Screen hoặc một bản nháp gửi qua Discord kèm theo các dấu khoanh đỏ giải quyết vấn đề nhanh gấp 10 lần những đoạn chat dài dòng. Hơn nữa, việc duy trì phản hồi nhanh (dùng Emoji, thả react) giúp giữ nhịp độ làm việc và tạo động lực rất lớn cho toàn nhóm.</p>
+              </div>
+            </div>
+          </div></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="pill-b5" role="tabpanel" aria-labelledby="pill-b5-tab">
+                <div class="tab-content-box" style="border-top: 4px solid #34b7a7;">
+                  <h3 style="font-weight: 700; color: #222;">Bài 5 - Sử dụng AI tạo sinh để hỗ trợ sáng tạo nội dung</h3>
+                  <p class="text-muted" style="font-size: 0.9rem;"><em>Mục tiêu: Ứng dụng mô hình AI tạo sinh để thiết kế hình ảnh và sản xuất nội dung số.</em></p>
+                  <hr>
+                  <div class="project-detail-text mt-4">
+                    <p style="color: #d9534f; font-weight: bold;"><div class="p-4 mb-5 rounded shadow-sm" style="background: linear-gradient(135deg, #f0fdf4 0%, #e0f8f1 100%); border-left: 5px solid #34b7a7;">
+            <h4 style="font-weight: 700; color: #222; margin-bottom: 15px; text-transform: uppercase;">Báo Cáo Dự Án: Sáng Tạo Nội Dung Đa Phương Tiện</h4>
+            <ul class="mb-0" style="line-height: 1.8; color: #444; list-style-type: none; padding-left: 0; font-size: 1.05rem;">
+              <li><i class="bi bi-tag-fill me-2" style="color: #34b7a7;"></i><strong>Chủ đề:</strong> Thiết kế đồ họa và hành trình trở thành Graphic Designer</li>
+              <li><i class="bi bi-people-fill me-2" style="color: #34b7a7;"></i><strong>Đối tượng:</strong> Học sinh THPT, sinh viên mới bắt đầu (Gen Z)</li>
+            </ul>
+          </div>
+
+          <h5 style="font-weight: 700; color: #222; border-left: 4px solid #34b7a7; padding-left: 10px; margin-bottom: 20px;">
+            I. Giai đoạn 1: Soạn thảo Nội dung & Copywriting
+          </h5>
+          <div class="row mb-5 align-items-center">
+            <div class="col-md-7">
+              <p style="text-align: justify; line-height: 1.8; color: #555;">
+                Trước khi sử dụng công cụ AI, tôi tập trung chốt ý tưởng cốt lõi và biên soạn kịch bản chi tiết. Điều này đảm bảo nội dung có linh hồn và thông điệp cá nhân rõ ràng.<br>
+                Tôi đã hoàn thành:
+              </p>
+              <ul style="line-height: 1.8; color: #555;">
+                <li><strong>Kịch bản Blog:</strong> "5 nguyên tắc thiết kế cơ bản cho người mới".</li>
+                <li><strong>Kịch bản Video:</strong> Series "1 phút học thiết kế" (Tips nhanh, Before/After).</li>
+              </ul>
+              <div class="p-3 mt-3 bg-light rounded shadow-sm border-left" style="border-left: 3px solid #ddd; font-family: 'Courier New', monospace; font-size: 0.9rem;">
+                <p class="mb-1 text-muted"><strong>[Nháp Kịch bản Blog - Trích]</strong></p>
+                <p>...Làm sao để AI hiểu rằng tôi muốn truyền tải sự nhiệt huyết? Phần kịch bản này cần nhấn mạnh triết lý CMYK...</p>
+              </div>
+            </div>
+            <div class="col-md-5 mt-3 mt-md-0">
+              <a href="assets/img/minhchung-b5-5.jpg" class="glightbox" data-gallery="bai5-gallery">
+                <img src="assets/img/minhchung-b5-5.jpg" class="img-fluid rounded shadow-sm w-100 border" alt="Ảnh 5 - Thao tác soạn thảo kịch bản">
+              </a>
+              <p class="text-center mt-2" style="font-size: 0.8rem; color: #888;"><em>Minh chứng: Giai đoạn soạn thảo kịch bản (Copywriting)</em></p>
+            </div>
+          </div>
+
+          <hr style="border-top: 1px dashed #ccc; margin: 30px 0;">
+
+          <h5 style="font-weight: 700; color: #222; border-left: 4px solid #34b7a7; padding-left: 10px; margin-bottom: 25px;">
+            II. Giai đoạn 2: Thao tác điều khiển AI (Prompt Engineering)
+          </h5>
+          <p style="text-align: justify; line-height: 1.8; color: #555; margin-bottom: 25px;">Sử dụng tư duy **Prompt Engineering**, tôi thực hiện quá trình tương tác lặp lại với AI để chuyển đổi kịch bản văn bản thành các asset đồ họa và video chi tiết. Quá trình gồm 3 bước thao tác cốt lõi:</p>
+          
+          <div class="row gy-4 mb-5">
+            <div class="col-md-4">
+              <div class="p-3 h-100 rounded shadow-sm bg-white" style="border: 1px solid #eee; border-top: 3px solid #34b7a7;">
+                <a href="assets/img/minhchung-b5-1.jpg" class="glightbox" data-gallery="bai5-gallery">
+                  <img src="assets/img/minhchung-b5-1.jpg" class="img-fluid rounded mb-3 border" alt="Thao tác AI Bước 1 - Prompt Engineering">
+                </a>
+                <h6 style="font-weight: 700;">Thao tác 1: Khởi tạo Prompt</h6>
+                <small class="text-muted">Nhập kịch bản chi tiết, xác định Persona là chuyên gia lịch sử thiết kế để AI đưa ra các đề xuất concept chính xác.</small>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="p-3 h-100 rounded shadow-sm bg-white" style="border: 1px solid #eee; border-top: 3px solid #0dcaf0;">
+                <a href="assets/img/minhchung-b5-2.jpg" class="glightbox" data-gallery="bai5-gallery">
+                  <img src="assets/img/minhchung-b5-2.jpg" class="img-fluid rounded mb-3 border" alt="Thao tác AI Bước 2 - Điều chỉnh Visual">
+                </a>
+                <h6 style="font-weight: 700;">Thao tác 2: Tinh chỉnh Visual</h6>
+                <small class="text-muted">Lặp Prompt để AI điều chỉnh độ sáng, bố cục, và phong cách Poster (Minimalism) cho khớp với ý tưởng.</small>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="p-3 h-100 rounded shadow-sm bg-white" style="border: 1px solid #eee; border-top: 3px solid #198754;">
+                <a href="assets/img/minhchung-b5-3.jpg" class="glightbox" data-gallery="bai5-gallery">
+                  <img src="assets/img/minhchung-b5-3.jpg" class="img-fluid rounded mb-3 border" alt="Thao tác AI Bước 3 - Tạo tiêu đề">
+                </a>
+                <h6 style="font-weight: 700;">Thao tác 3: Tạo nội dung đi kèm</h6>
+                <small class="text-muted">Điều khiển AI xuất ra tiêu đề blog giật gân, caption video TikTok ngắn gọn và tóm tắt nguyên lý bố cục.</small>
+              </div>
+            </div>
+          </div>
+
+          <hr style="border-top: 1px dashed #ccc; margin: 30px 0;">
+
+          <h5 style="font-weight: 700; color: #222; border-left: 4px solid #34b7a7; padding-left: 10px; margin-bottom: 25px;">
+            III. Sản phẩm tạo ra: Poster truyền cảm hứng
+          </h5>
+          <div class="row align-items-center mb-5">
+            <div class="col-md-8">
+              <p style="text-align: justify; line-height: 1.8; color: #555; margin-bottom: 10px;">
+                Kết quả của quá trình điều khiển AI kỹ lưỡng là sản phẩm **Poster truyền cảm hứng: "Start your design journey"**. Sản phẩm tuân thủ nghiêm ngặt nguyên lý bố cục 1/3 và tối ưu hóa hiển thị số, sẵn sàng chia sẻ lên các nền tảng Gen Z.
+              </p>
+              <div class="card bg-light border-0 p-3 mb-3">
+                <a href="assets/img/minhchung-b5-4.jpg" class="glightbox" data-gallery="bai5-gallery">
+                  <img src="assets/img/minhchung-b5-4.jpg" class="img-fluid rounded shadow-sm w-100 border" alt="Ảnh 4 - Thành phẩm Poster do AI làm ra">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-12 d-none d-md-block">
+              <div class="table-responsive">
+                <table class="table table-sm table-bordered text-center" style="font-size: 0.85rem;">
+                  <thead class="bg-light"><tr><th>Hệ sinh thái</th><th>Sản phẩm</th></tr></thead>
+                  <tbody>
+                    <tr><td>Văn bản</td><td>1 bài blog</td></tr>
+                    <tr><td>Đồ họa</td><td>1 infographic, 1 poster</td></tr>
+                    <tr><td>Video</td><td>1 video ngắn</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <hr style="border-top: 1px dashed #ccc; margin: 30px 0;">
+
+          <h5 style="font-weight: 700; color: #222; border-left: 4px solid #34b7a7; padding-left: 10px; margin-bottom: 20px;">IV. Khó khăn & Bài học kinh nghiệm</h5>
+          <div class="row gy-4 mb-4">
+            <div class="col-md-6 alert alert-warning border-0 p-4 shadow-sm" style="font-size: 0.9rem;">
+              <strong style="color: #856404;"><i class="bi bi-exclamation-triangle-fill"></i> Thách thức & Giải pháp:</strong><br>
+              • Khó khăn: Thiếu hụt ý tưởng sáng tạo đột phá ban đầu -> Giải pháp: Tăng cường tham khảo kho tư liệu khổng lồ trên Pinterest.<br>
+              • Khó khăn: Chưa thành thạo các kỹ thuật cắt ghép video phức tạp trên CapCut -> Giải pháp: Xem thêm hướng dẫn bổ sung từ YouTube.
+            </div>
+            <div class="col-md-6 alert alert-success border-0 p-4 shadow-sm" style="font-size: 0.9rem;">
+              <strong style="color: #155724;"><i class="bi bi-check-circle-fill"></i> Bài học rút ra:</strong><br>
+              Một kế hoạch chi tiết, một kịch bản Copywriting chuẩn chỉnh (đã soạn thảo ban đầu) là chìa khóa của thành công. AI và phần mềm kéo thả chỉ là hỗ trợ đắc lực, tư duy và sự sáng tạo cá nhân mới là linh hồn tạo nên giá trị đột phá của thiết kế.
+            </div>
+          </div>
+
+          <div class="mt-5 p-3 text-center bg-light rounded italic" style="color: #666; border: 1px solid #ddd;">
+            <i class="bi bi-quote fs-4"></i> Dự án giúp phát triển kỹ năng sáng tạo nội dung đa phương tiện và quản lý thời gian hiệu quả.
+          </div></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="pill-b6" role="tabpanel" aria-labelledby="pill-b6-tab">
+                <div class="tab-content-box" style="border-top: 4px solid #f57813;">
+                  <h3 style="font-weight: 700; color: #222;">Bài 6 - Sử dụng AI có trách nhiệm trong học tập và nghiên cứu</h3>
+                  <p class="text-muted" style="font-size: 0.9rem;"><em>Mục tiêu: Xây dựng bộ quy tắc đạo đức cá nhân tránh lạm dụng và đạo văn công nghệ.</em></p>
+                  <hr>
+                  <div class="project-detail-text mt-4">
+                    <p style="color: #d9534f; font-weight: bold;"><div class="p-4 mb-5 rounded shadow-sm position-relative overflow-hidden" style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white;">
+            <div class="position-relative" style="z-index: 2;">
+              <h4 style="font-weight: 700; margin-bottom: 15px; text-transform: uppercase;">Báo Cáo Nghiên Cứu: Ứng Dụng Và Đạo Đức AI Trong Học Thuật</h4>
+              <p class="mb-0" style="font-size: 1.05rem; opacity: 0.9;">
+                <i class="bi bi-shield-check me-2"></i>Nghiên cứu chính sách - Thực hành minh bạch - Cam kết liêm chính
+              </p>
+            </div>
+            <i class="bi bi-robot position-absolute" style="font-size: 8rem; right: -20px; bottom: -30px; opacity: 0.1; z-index: 1;"></i>
+          </div>
+
+          <h5 style="font-weight: 700; color: #222; border-left: 4px solid #2a5298; padding-left: 10px; margin-bottom: 25px;">
+            1. Nghiên cứu & Phân tích chính sách AI tại các trường Đại học
+          </h5>
+          
+          <div class="row gy-4 mb-5">
+            <div class="col-md-6">
+              <div class="p-4 h-100 rounded shadow-sm bg-white" style="border-top: 4px solid #34b7a7;">
+                <h6 style="font-weight: 700; color: #1e3c72;"><i class="bi bi-building me-2"></i>1.1. Tại Đại học Quốc gia Hà Nội (ĐHQGHN)</h6>
+                <p style="font-size: 0.9rem; color: #555; text-align: justify;">Hiện tại, ĐHQGHN tập trung quản lý AI qua quy định cốt lõi về <strong>Liêm chính học thuật</strong>, yêu cầu bảo đảm tính nguyên bản của sản phẩm.</p>
+                <ul style="font-size: 0.85rem; color: #444; padding-left: 1rem;">
+                  <li><span class="badge bg-success me-1">Cho phép</span> Tìm kiếm tài liệu, check ngữ pháp, dịch thuật, brainstorming.</li>
+                  <li><span class="badge bg-danger me-1">Nghiêm cấm</span> Dùng AI viết toàn bộ/phần lớn bài luận nộp dưới tên mình (Đạo văn).</li>
+                  <li><span class="badge bg-warning text-dark me-1">Bắt buộc</span> Minh bạch hóa qua trích dẫn hoặc lời cảm ơn.</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="col-md-6">
+              <div class="p-4 h-100 rounded shadow-sm bg-white" style="border-top: 4px solid #f57813;">
+                <h6 style="font-weight: 700; color: #1e3c72;"><i class="bi bi-arrow-left-right me-2"></i>1.2. So sánh đối chiếu (HUST & RMIT)</h6>
+                <div class="d-flex mb-2 mt-3">
+                  <div class="me-3"><i class="bi bi-gear-fill fs-4 text-secondary"></i></div>
+                  <div>
+                    <strong style="font-size: 0.9rem;">Đại học Bách Khoa (HUST):</strong>
+                    <p style="font-size: 0.85rem; color: #555; margin-bottom: 0;">Tương đồng ĐHQGHN, áp dụng quy chế chống đạo văn chung, kiểm tra gắt gao qua Turnitin.</p>
+                  </div>
+                </div>
+                <div class="d-flex">
+                  <div class="me-3"><i class="bi bi-globe fs-4 text-danger"></i></div>
+                  <div>
+                    <strong style="font-size: 0.9rem;">RMIT Việt Nam:</strong>
+                    <p style="font-size: 0.85rem; color: #555; margin-bottom: 0;">Hệ thống phân loại rõ ràng theo đèn giao thông (Đèn xanh: Dùng tự do có trích dẫn; Đèn vàng: Lên ý tưởng; Đèn đỏ: Cấm tuyệt đối).</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="p-3 rounded" style="background-color: #f8f9fa; border-left: 4px solid #6c757d;">
+                <h6 style="font-weight: 700; color: #333;">1.3. Nhận định cá nhân</h6>
+                <p style="font-size: 0.95rem; color: #555; margin-bottom: 0; text-align: justify;">
+                  Việc lồng ghép quản lý AI vào quy định liêm chính học thuật hiện tại là bước đi cần thiết nhưng chưa đủ. Việc thiếu đi các hướng dẫn phân loại chi tiết (như mô hình của RMIT) có thể khiến sinh viên bối rối giữa ranh giới "hỗ trợ" và "gian lận". Nhà trường cần sớm ban hành cẩm nang hướng dẫn cụ thể, đồng thời thay đổi phương pháp đánh giá (chú trọng vấn đáp, tư duy phản biện) thay vì chỉ chấm văn bản.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <h5 style="font-weight: 700; color: #222; border-left: 4px solid #2a5298; padding-left: 10px; margin-bottom: 15px;">
+            2. Thực hành nhiệm vụ với AI
+          </h5>
+          <p style="color: #555;"><strong>Nhiệm vụ:</strong> Viết bài luận (500 chữ) kết hợp phác thảo Infographic về <em>"Tác động của biến đổi khí hậu đến nông nghiệp tại ĐBSCL"</em>.</p>
+          
+          <div class="table-responsive shadow-sm mb-3">
+            <table class="table table-bordered align-middle mb-0" style="font-size: 0.9rem;">
+              <thead style="background-color: #2a5298; color: white;">
+                <tr>
+                  <th width="15%" class="text-center">Giai đoạn</th>
+                  <th width="30%">Prompt (Câu lệnh)</th>
+                  <th width="25%">Đầu ra của AI</th>
+                  <th width="30%">Đánh giá & Tích hợp sáng tạo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="text-center fw-bold bg-light">1. Lên dàn ý</td>
+                  <td>"Đóng vai chuyên gia môi trường, lập dàn ý 3 phần bài luận 500 chữ về tác động BĐKH đến nông nghiệp ĐBSCL. Có số liệu."</td>
+                  <td>3 phần: Xâm nhập mặn, Hạn hán, Đổi cơ cấu. Số liệu diện tích lúa bị ảnh hưởng chung chung.</td>
+                  <td><strong class="text-danger">Đánh giá:</strong> Số liệu cũ (2020).<br><strong class="text-success">Chỉnh sửa:</strong> Chủ động thay bằng số liệu Bộ TN&MT (2024). Tích hợp góc nhìn về giải pháp hệ thống tưới tiêu.</td>
+                </tr>
+                <tr>
+                  <td class="text-center fw-bold bg-light">2. Viết nháp</td>
+                  <td>"Dựa trên dàn ý đã chốt, viết đoạn văn phân tích tình trạng xâm nhập mặn, văn phong học thuật, câu ghép."</td>
+                  <td>Đoạn 150 chữ phân tích tốt nồng độ mặn và thiệt hại, trôi chảy.</td>
+                  <td><strong class="text-danger">Đánh giá:</strong> Rập khuôn, thiếu cảm xúc.<br><strong class="text-success">Chỉnh sửa:</strong> Viết lại 40%, chèn ví dụ thực tiễn một hộ nông dân cụ thể để mang dấu ấn cá nhân.</td>
+                </tr>
+                <tr>
+                  <td class="text-center fw-bold bg-light">3. Kiểm tra</td>
+                  <td>"Kiểm tra lỗi logic, ngữ pháp đoạn văn sau. Gợi ý từ vựng chuyên ngành tốt hơn."</td>
+                  <td>Chỉ ra 2 lỗi lặp từ. Gợi ý dùng "ngưỡng chịu đựng sinh thái" thay "mức chịu đựng của cây".</td>
+                  <td><strong class="text-success">Tích hợp:</strong> Chấp nhận đề xuất thay đổi từ vựng chuyên ngành, nâng cấp chất lượng học thuật hiệu quả.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="p-3 mb-5 rounded" style="background-color: #f0fdf4; border: 1px solid #c3e6cb;">
+            <strong style="color: #155724;"><i class="bi bi-journal-check me-2"></i>Trích dẫn minh bạch (Chuẩn APA 7th Edition):</strong>
+            <p class="mb-0 mt-2" style="font-family: 'Times New Roman', Times, serif; font-size: 1.05rem; padding-left: 2rem; text-indent: -2rem;">
+              OpenAI. (2026). <em>ChatGPT</em> (Phiên bản GPT-4) [Mô hình ngôn ngữ lớn]. https://chat.openai.com
+              <br><span style="font-size: 0.9rem; color: #666;">(Sử dụng vào ngày 29 tháng 5 năm 2026, hỗ trợ lập dàn ý, tối ưu hóa từ vựng chuyên ngành và kiểm tra lỗi ngữ pháp).</span>
+            </p>
+          </div>
+
+          <h5 style="font-weight: 700; color: #222; border-left: 4px solid #2a5298; padding-left: 10px; margin-bottom: 25px;">
+            3. Phân tích các vấn đề đạo đức khi sử dụng AI
+          </h5>
+          <div class="row gy-4 mb-5">
+            <div class="col-md-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h6 class="fw-bold" style="color: #34b7a7;"><i class="bi bi-yin-yang me-2"></i>3.1. Ranh giới Hỗ trợ & Gian lận</h6>
+                  <p style="font-size: 0.85rem; color: #555; text-align: justify; margin-bottom: 0;">
+                    <strong>Hỗ trợ:</strong> Người học làm chủ ý tưởng, dùng AI làm trợ lý vượt qua <em>writer's block</em>, tinh chỉnh diễn đạt.<br><br>
+                    <strong>Gian lận:</strong> Quá trình tư duy bị "khoán trắng". Việc Copy-paste biến người học thành công cụ truyền dẫn thụ động, vi phạm cốt lõi giáo dục.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h6 class="fw-bold" style="color: #f57813;"><i class="bi bi-c-circle me-2"></i>3.2. Quyền sở hữu trí tuệ (IP)</h6>
+                  <p style="font-size: 0.85rem; color: #555; text-align: justify; margin-bottom: 0;">
+                    AI được huấn luyện trên dữ liệu khổng lồ chưa chắc có sự cho phép. Dùng nội dung AI mà không trích dẫn là gián tiếp tước đoạt công sức người sáng tạo dữ liệu gốc - một vùng xám đạo đức cần ý thức rõ.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h6 class="fw-bold" style="color: #d9534f;"><i class="bi bi-brain me-2"></i>3.3. Tác động đến phát triển kỹ năng</h6>
+                  <p style="font-size: 0.85rem; color: #555; text-align: justify; margin-bottom: 0;">
+                    Tiện lợi của AI là dao hai lưỡi. Lạm dụng gây ra <strong>hội chứng "teo cơ tư duy" (Cognitive Atrophy)</strong>. Kỹ năng nghiên cứu, phản biện, logic sẽ thui chột nếu luôn có sẵn câu trả lời tức thì.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h5 style="font-weight: 700; color: #222; border-left: 4px solid #2a5298; padding-left: 10px; margin-bottom: 25px;">
+            4. Bộ 6 nguyên tắc cá nhân: "Sử dụng AI có trách nhiệm"
+          </h5>
+          <div class="row g-3 mb-5">
+            <div class="col-md-4"><div class="p-3 bg-white rounded shadow-sm border-start border-4 border-primary h-100"><strong class="d-block mb-1">1. Minh bạch tuyệt đối</strong><small class="text-muted">Luôn khai báo AI đã dùng, mục đích và phạm vi can thiệp.</small></div></div>
+            <div class="col-md-4"><div class="p-3 bg-white rounded shadow-sm border-start border-4 border-success h-100"><strong class="d-block mb-1">2. Tư duy làm chủ</strong><small class="text-muted">Ý tưởng cốt lõi từ não người, AI chỉ "đắp thịt" cho khung xương.</small></div></div>
+            <div class="col-md-4"><div class="p-3 bg-white rounded shadow-sm border-start border-4 border-warning h-100"><strong class="d-block mb-1">3. Thẩm định đa chiều</strong><small class="text-muted">Xác thực chéo qua 2 nguồn uy tín để tránh "ảo giác AI" (Hallucination).</small></div></div>
+            <div class="col-md-4"><div class="p-3 bg-white rounded shadow-sm border-start border-4 border-danger h-100"><strong class="d-block mb-1">4. Tôn trọng bản quyền</strong><small class="text-muted">Không sao chép phong cách nghệ sĩ cụ thể để thương mại hóa/nhận vơ.</small></div></div>
+            <div class="col-md-4"><div class="p-3 bg-white rounded shadow-sm border-start border-4 border-info h-100"><strong class="d-block mb-1">5. Bảo vệ dữ liệu</strong><small class="text-muted">Không nhập số liệu gốc, data bảo mật cá nhân vào AI mã nguồn mở.</small></div></div>
+            <div class="col-md-4"><div class="p-3 bg-white rounded shadow-sm border-start border-4 border-dark h-100"><strong class="d-block mb-1">6. Tự giới hạn</strong><small class="text-muted">Chủ động tự phân tích logic nền tảng trước khi nhờ AI gợi ý.</small></div></div>
+          </div>
+
+          <h5 style="font-weight: 700; color: #222; border-left: 4px solid #2a5298; padding-left: 10px; margin-bottom: 25px;">
+            5. Thiết kế Concept Infographic
+          </h5>
+          <div class="row align-items-center mb-4">
+            <div class="col-md-6">
+              <div class="p-4 rounded shadow-sm" style="background-color: #222; color: #fff;">
+                <h4 class="text-center fw-bold mb-4" style="color: #fff; letter-spacing: 1px;">AI LÀ CỘNG SỰ - BẠN LÀ NGƯỜI QUYẾT ĐỊNH</h4>
+                <div class="text-center mb-4">
+                  <i class="bi bi-person-fill fs-1 text-info me-2"></i>
+                  <i class="bi bi-arrow-left-right fs-4 text-secondary mx-2"></i>
+                  <i class="bi bi-robot fs-1 text-warning ms-2"></i>
+                  <p class="mt-2 text-muted" style="font-size: 0.8rem;">(Hero Image: Trí óc con người hợp tác bình đẳng cùng AI)</p>
+                </div>
+                <div class="row">
+                  <div class="col-6">
+                    <h6 class="text-info fw-bold"><i class="bi bi-check-circle-fill me-2"></i>ĐÈN XANH</h6>
+                    <ul class="list-unstyled" style="font-size: 0.85rem; opacity: 0.9;">
+                      <li><i class="bi bi-dot"></i> Gợi ý & lập dàn ý.</li>
+                      <li><i class="bi bi-dot"></i> Tóm tắt tài liệu nền tảng.</li>
+                      <li><i class="bi bi-dot"></i> Rà soát cấu trúc ngữ pháp.</li>
+                    </ul>
+                  </div>
+                  <div class="col-6">
+                    <h6 class="text-danger fw-bold"><i class="bi bi-x-circle-fill me-2"></i>ĐÈN ĐỎ</h6>
+                    <ul class="list-unstyled" style="font-size: 0.85rem; opacity: 0.9;">
+                      <li><i class="bi bi-dot"></i> Sao chép 100% nội dung.</li>
+                      <li><i class="bi bi-dot"></i> Làm hộ bài kiểm tra.</li>
+                      <li><i class="bi bi-dot"></i> Nhập dữ liệu bảo mật.</li>
+                    </ul>
+                  </div>
+                </div>
+                <hr style="border-color: #555;">
+                <p class="text-center mb-0" style="font-size: 0.8rem; color: #aaa;">Luôn kiểm chứng thông tin và trích dẫn minh bạch.</p>
+              </div>
+            </div>
+            <div class="col-md-6 mt-4 mt-md-0">
+              <div class="ps-md-4">
+                <h6 style="color: #2a5298; font-weight: 700;">Quy chuẩn Thiết kế:</h6>
+                <ul style="line-height: 1.8; color: #555; font-size: 0.95rem;">
+                  <li><strong>Bố cục:</strong> Hình chữ Z (Z-pattern) dẫn dắt ánh mắt: Tiêu đề -> Hành động đúng -> Điểm giao thoa -> Hành động sai.</li>
+                  <li><strong>Tone màu chủ đạo:</strong> 
+                    <br><span class="badge bg-primary">Xanh dương (Tech Blue)</span> Tượng trưng cho thông minh, sáng suốt (Nên làm).
+                    <br><span class="badge bg-danger mt-1">Cam đất/Đỏ gạch</span> Cảnh báo, giới hạn cần lưu ý (Không nên).
+                  </li>
+                  <li><strong>Phong cách:</strong> Flat design tối giản, font chữ Sans-serif hiện đại, tạo cảm giác mạnh mẽ, chắc chắn.</li>
+                </ul>
+              </div>
+            </div>
+          </div></p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+    </section></main>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

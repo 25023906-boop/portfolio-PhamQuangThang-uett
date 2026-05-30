@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Summary - Portfolio</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="about-page">
+
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <h1 class="sitename">Thắng</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="target.html">Target</a></li>
+          <li><a href="project.html">Project</a></li>
+          <li><a href="summary.html" class="active">Summary</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section id="summary" class="about section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Project Summary</h2>
+        <p>Tổng kết những va vấp kỹ thuật và bài học thực tế đắt giá trong suốt quá trình xây dựng website này.</p>
+      </div><div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-5">
+          
+          <div class="col-lg-12">
+            <div class="p-4" style="background: #fafafa; border-left: 4px solid #f57813; border-radius: 0 8px 8px 0; box-shadow: 0 2px 15px rgba(0,0,0,0.05);">
+              <h3 style="color: #222; font-weight: 700; margin-bottom: 15px;">
+                <i class="bi bi-exclamation-triangle" style="color: #f57813; margin-right: 10px;"></i> 1. Những "Ngọn Núi" Khó Khăn & Va Vấp Kỹ Thuật
+              </h3>
+              <p style="line-height: 1.8; text-align: justify; color: #555;">
+                Quá trình biến một template Bootstrap có sẵn thành trang web cá nhân hóa không hề êm đềm, trái lại là một chuỗi đối đầu với những lỗi hệ thống cực kỳ ức chế:
+              </p>
+              <ul style="padding-left: 20px; line-height: 1.8; color: #555; margin-top: 10px;">
+                <li style="margin-bottom: 10px;">
+                  <strong>Trận chiến Đa trang (Multi-page Chaos):</strong> Khó khăn đầu tiên là việc hiểu tính chất của kiến trúc đa trang. Khi sửa xong menu ở trang chủ nhưng bấm sang trang About thì mọi thứ quay lại như cũ. Việc phải quản lý, chỉnh sửa thủ công và đồng bộ từng file HTML độc lập đòi hỏi sự tập trung cực cao, chỉ cần lơ là một chút là các đường link sẽ đá nhau loạn xạ.
+                </li>
+                <li style="margin-bottom: 10px;">
+                  <strong>Cơn ác mộng Lỗi 404:</strong> Khi tự ý thêm các danh mục mới như <code style="color: #f57813;">target.html</code> hay <code style="color: #f57813;">project.html</code> vào menu mà chưa khởi tạo tệp thực tế trong thư mục, trình duyệt liên tục trả về màn hình trống rỗng báo lỗi 404. Việc copy file, đổi tên và quản lý tệp tin trực tiếp ngay trên cột Explorer của VS Code ban đầu rất dễ gây nhầm lẫn giữa copy văn bản thông thường và nhân bản file.
+                </li>
+                <li style="margin-bottom: 10px;">
+                  <strong>Vỡ trận Bố cục (Broken Grid Layout):</strong> Thách thức đáng sợ nhất là khi dán code mới vào file, giao diện lập tức bị vỡ tung, ảnh một nơi chữ một nẻo và đổ dọc xuống dưới. Nguyên nhân đến từ việc vô tình xóa mất hoặc thừa các thẻ đóng <code style="color: #f57813;">&lt;/div&gt;</code> hoặc cấu hình sai hệ thống chia hàng và cột (<code style="color: #f57813;">row</code>, <code style="color: #f57813;">col-lg-*</code>) của Bootstrap khi thu phóng màn hình.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-12">
+            <div class="p-4" style="background: #fafafa; border-left: 4px solid #34b7a7; border-radius: 0 8px 8px 0; box-shadow: 0 2px 15px rgba(0,0,0,0.05);">
+              <h3 style="color: #222; font-weight: 700; margin-bottom: 15px;">
+                <i class="bi bi-lightbulb" style="color: #34b7a7; margin-right: 10px;"></i> 2. Những Bài Học Xương Máu Từ Thực Tế Làm Web
+              </h3>
+              <p style="line-height: 1.8; text-align: justify; color: #555;">
+                Sau khi tự mình lần mò, đập đi xây lại từng khối mã nguồn, tôi đã rút ra được những bài học thực hành vô giá mà không một cuốn sách lý thuyết nào dạy được:
+              </p>
+              <div class="row gy-4 style=margin-top: 5px;">
+                <div class="col-md-6">
+                  <h5 style="font-weight: 600; color: #333;"><i class="bi bi-box-seam" style="color: #34b7a7;"></i> Bài học về Cấu Trúc Khung (Block Mindset)</h5>
+                  <p style="font-size: 0.95rem; line-height: 1.6; color: #666;">Làm web giống như xây nhà bằng các khối Lego. Trước khi động vào bất kỳ dòng chữ nào, phải xác định rõ ranh giới của thẻ mở và thẻ đóng, đặc biệt là cặp thẻ kiểm soát nội dung chính <code style="color: #34b7a7;">&lt;main&gt;</code>. Muốn sửa nội dung mà không làm hỏng nhà thì phải dán đè đúng vị trí bên trong các block đó.</p>
+                </div>
+                <div class="col-md-6">
+                  <h5 style="font-weight: 600; color: #333;"><i class="bi bi-lightning-charge" style="color: #34b7a7;"></i> Làm Chủ Tiện Ích Mở Rộng & Sửa Lỗi Tức Thì</h5>
+                  <p style="font-size: 0.95rem; line-height: 1.6; color: #666;">Hiểu được giá trị của các công cụ bổ trợ trực tiếp trong môi trường code. Việc cài đặt và cấu hình thành công tiện ích **Five Server** ngay trên VS Code giúp tôi nhận ra tầm quan trọng của cơ chế Auto-reload. Thay vì f5 thủ công, mỗi lần ấn <code style="color: #34b7a7;">Ctrl + S</code> là một lần nhìn thấy ngay lỗi sai để tinh chỉnh bố cục đáp ứng (Responsive) kịp thời.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12">
+            <div class="p-4" style="background: #fafafa; border-left: 4px solid #222; border-radius: 0 8px 8px 0; box-shadow: 0 2px 15px rgba(0,0,0,0.05);">
+              <h3 style="color: #222; font-weight: 700; margin-bottom: 15px;">
+                <i class="bi bi-check-all" style="color: #222; margin-right: 10px;"></i> 3. Điểm Tâm Đắc Nhất Sau Khi Hoàn Thành Website
+              </h3>
+              <p style="line-height: 1.8; text-align: justify; color: #555;">
+                Điều tôi tự hào nhất không phải là việc tạo ra một trang web lung linh từ con số 0, mà là việc **tôi đã khuất phục và làm chủ được một template có sẵn**. Từ chỗ không biết cài công cụ chạy thử ở đâu, liên tục làm sập bố cục hàng ngang của trang mẫu, tôi đã biết cách định vị chính xác vị trí lỗi từ dòng bao nhiêu đến dòng bao nhiêu, biết dọn dẹp sạch sẽ các thành phần rác thừa thãi để giữ lại một giao diện portfolio gọn gàng, sắc sảo và mang đậm dấu ấn cá nhân của mình.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section></main>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
